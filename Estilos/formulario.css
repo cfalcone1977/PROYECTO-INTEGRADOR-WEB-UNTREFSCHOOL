@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Belanosima:wght@400;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Tagesschrift&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Belanosima:wght@400;600;700&display=swap');
+body{
+    display: flex;
+    flex-direction: column;
+    font-family:"Poppins", sans-serif;
+    align-items: center; 
+    justify-content: center;
+    background-image: url('../Imagenes/fondos/educacion-primaria-1.jpg');
+    background-size: cover;
+    gap: 20px;
+}
+.formulario{
+    display: none;
+}
+header{
+    width: 100%;
+}
+#cajaFormulario h1{
+    text-align: center;
+    color: #EFF5F5;
+}
+
+#cajaFormulario{
+    display: flex;
+    flex-direction: column;
+    width: 260px;
+    padding: 10px;
+    box-shadow: 10px 10px 5px 0px black;
+    border-radius: 10px;
+    gap: 5px;
+    background-color: #00425A;
+    opacity: 0.85;
+}
+
+.cajatexto{
+    resize: none;
+}
+.nombre,.mail,.telefono,.cajatexto{
+ outline: none;
+ border-radius:5px;
+ background-color: #EFF5F5;
+}
+
+.cajaBotonEnviar{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+.botonEnviar{
+    width: 60px;
+    height: 30px;
+    border-radius: 7px;
+}
+
+#piePagina{
+    width: 100%;
+}
+.contactos{
+    display:none;
+}
+
+

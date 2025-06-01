@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Estilos/formulario.css">
+    <link rel="stylesheet" href="./Estilos/style.css">
+    <link rel="icon" href="./Imagenes/Logo/iconoUntrefSchool.jpg">
+    <title>UntrefSchool FORMULARIO</title>
+</head>
+<body>
+   <header>
+            <nav>
+            <ul>
+                <li><a href="./index.html#QS" class="opcionMenu">Quienes Somos</a></li>
+                <li><a href="./index.html#PQE" class="opcionMenu">¿Por qué elegirnos?</a></li>
+                <li><a href="./index.html#PE" class="opcionMenu">Propuesta educativa</a></li>
+                <li><a href="./index.html#UN" class="opcionMenu">ultimas Noticias</a></li>
+                <li class="formulario"><a href="./formulario.html" class="opcionMenu" target="_blank">INFORMACION</a></li>
+            </ul>
+        </nav>
+   </header>
+   <form action="https://formsubmit.co/cristianfalcone742@gmail.com" method="POST" id="cajaFormulario">
+    <h2>FORMULARIO</h2>
+    <img src="./Imagenes/Logo/logoUntrefSchool5.png" alt="logo UntrefSchool">
+    <label for="">Nombre y Apellido:</label>
+    <input type="text" placeholder="Nombre y Apellido" name="nombreyapellido" class="nombre" required>
+    <label for="">Correo electrónico:</label>
+    <input type="email" placeholder="ejemplo@hotmail.com" name="email" class="mail" required>
+    <label for="">Teléfono</label>
+    <input type="tel" placeholder="+05492266532427" name="telefono" class="telefono">
+    <label for="">Comentario:</label>
+    <textarea rows="5" cols="50" name="comentario" placeholder="Dejanos tu comentario, consulta o inquietud...(250 caracteres)." class="cajatexto" maxlength="250"></textarea>
+    <div class="cajaBotonEnviar">
+      <button type="submit" class="botonEnviar">Enviar</button>
+    </div>
+   </form> 
+       <footer id="piePagina">
+       <article class="redesSociales">
+        <a href=""><img src="./Imagenes/redessociales/instagram.svg" alt="logo Whatsapp" id="instagram"></a>
+        <a href=""><img src="./Imagenes/redessociales/twitter.svg" alt="logo Whatsapp" id="twitter"></a>
+        <a href=""><img src="./Imagenes/redessociales/facebook.svg" alt="logo Whatsapp" id="facebook"></a>
+        <a href=""><img src="./Imagenes/redessociales/youtube.svg" alt="logo Whatsapp" id="youtube"></a>
+       </article>
+       <article class="ubicacion">
+         <div id="contenedorUbicacion">
+           <!--<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d617.3708565932378!2d-58.256334953372836!3d-37.85005646699438!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x959aaf1638410c27%3A0x12bae7586d8117f9!2sC.%2020%20n748%2C%20B7620%20Balcarce%2C%20Provincia%20de%20Buenos%20Aires!5e1!3m2!1ses!2sar!4v1748732348840!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" id="mapa"></iframe>-->
+           <a href="https://www.google.com/maps/@-37.850084,-58.256343,567m/data=!3m1!1e3?hl=es&entry=ttu&g_ep=EgoyMDI1MDUyOC4wIKXMDSoASAFQAw%3D%3D" target="_blank"><img src="./Imagenes/redessociales/geo-alt-fill.svg" alt="logo ubicacion" id="ubicacion"></a>
+         </div>
+       </article>
+       <article class="contacto">
+         <div class="contenedorWhattsapp">
+         <a href="https://wa.me/5492266532427?text=Me interesa conocer Educación Primaria" target="_blank"><img src="./Imagenes/redessociales/whatsapp.svg" alt="logo Whatsapp" id="whatsapp"></a>
+         <p class="contactos">5492266-532427</p>
+         </div>
+         <div class="contenedorTelefono">
+         <a href="tel:+5492266532427"><img src="./Imagenes/redessociales/telephone-fill.svg" alt="logo telefono" id="telefono"></a>
+         <p class="contactos">5492266-532427</p>         
+         </div>
+         <div class="contenedorMail">
+         <a href="mailto:cristianfalcone@hotmail.com" target="_blank"><img src="./Imagenes/redessociales/envelope.svg" alt="logo mail" id="mail"></a>
+         <p class="contactos">primaria@untrefschool.com.ar</p>         
+         </div>
+       </article>
+    </footer>
+</body>
+</html>
