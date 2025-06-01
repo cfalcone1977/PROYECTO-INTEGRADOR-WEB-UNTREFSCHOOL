@@ -22,6 +22,10 @@ header{
     color: #EFF5F5;
 }
 
+label{
+font-family:"Belanosima", sans-serif;
+}
+
 #cajaFormulario{
     display: flex;
     flex-direction: column;
@@ -49,6 +53,7 @@ header{
     justify-content: center;
 }
 .botonEnviar{
+    background-color:#EFF5F5;
     width: 60px;
     height: 30px;
     border-radius: 7px;
@@ -56,6 +61,7 @@ header{
 
 #piePagina{
     width: 100%;
+    height: 250px;
 }
 .contactos{
     display:none;
