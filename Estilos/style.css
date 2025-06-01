@@ -55,6 +55,11 @@ h1{
     justify-content: center;
     opacity: 0.8;
 }
+.logoUntref{
+    width: 850px;
+    border-radius: 10px;
+}
+
 #QS, #PQE, #PE, #UN{
     display: flex;
     flex-direction: column;
